@@ -12,4 +12,10 @@ public class GlobalExceptionHandler {
     public ResponseEntity<String> handleProfileNotFound(ProfileNotFoundException ex) {
         return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
     }
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<String> handleException(Exception ex) {
+        ex.printStackTrace();
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                .body("Error: " + ex.getMessage());
+    }
 }

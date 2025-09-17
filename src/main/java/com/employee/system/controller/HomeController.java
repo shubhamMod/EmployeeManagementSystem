@@ -1,5 +1,6 @@
 package com.employee.system.controller;
 
+import com.employee.system.dto.PageResponse;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
@@ -108,7 +109,7 @@ public class HomeController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
     }
-    
+
     @GetMapping("/all")
     public ResponseEntity<Object> allData(
             @RequestParam(defaultValue = "0") int page,
@@ -116,13 +117,15 @@ public class HomeController {
             @RequestParam(defaultValue = "id") String field,
             @RequestParam(defaultValue = "asc") String direction
     ) {
-          Page<EmployeeProfile> allEmployee = userService.getAllEmployee(page, size, field, direction);
-         if(allEmployee!=null) {
-    		 return ResponseEntity.ok(allEmployee);
-    	 }else {
-    		 return   ResponseEntity.status(HttpStatus.NO_CONTENT).body("Data not Found");
-    	 }
+        Page<EmployeeProfile> allEmployee = userService.getAllEmployee(page, size, field, direction);
+
+        if (allEmployee != null && !allEmployee.isEmpty()) {
+            return ResponseEntity.ok(new PageResponse(allEmployee));
+        } else {
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Data not Found");
+        }
     }
+
     
     @GetMapping("/fetching/{id}")
     public ResponseEntity<Object> fetchingData(@PathVariable String id) {

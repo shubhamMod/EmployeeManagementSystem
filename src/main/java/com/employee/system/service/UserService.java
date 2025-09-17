@@ -79,10 +79,10 @@ BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
         );
         if (authentication.isAuthenticated()) {
             SecurityContextHolder.getContext().setAuthentication(authentication);
-//            HttpSession session = request.getSession(true);
-//            session.setMaxInactiveInterval(120);
+            HttpSession session = request.getSession(true);
+            session.setMaxInactiveInterval(120);
             CustomUserDetails userDetails = (CustomUserDetails) authentication.getPrincipal();
-//            session.setAttribute("userId", userDetails.getUsername());
+            session.setAttribute("userId", userDetails.getUsername());
             return userDetails.getSignUp();
         }
         return null;
@@ -111,13 +111,14 @@ BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
 
 	        return profile.save(employeeProfile);
 	    }
-	  
-	  public Page<EmployeeProfile> getAllEmployee(int page, int size, String field, String direction) {
-	        Sort sort = direction.equalsIgnoreCase("asc") ? Sort.by(field).ascending() : Sort.by(field).descending();
-	        Pageable pageable = PageRequest.of(page, size, sort);
-	        Page<EmployeeProfile> all = profile.findAll(pageable);
-	        return all;
-	    }
+    public Page<EmployeeProfile> getAllEmployee(int page, int size, String field, String direction) {
+        Sort sort = direction.equalsIgnoreCase("asc")
+                ? Sort.by(field).ascending()
+                : Sort.by(field).descending();
+        Pageable pageable = PageRequest.of(page, size, sort);
+        return profile.findAll(pageable);
+    }
+
 //public Page<EmployeeProfile> getAllEmployee(int page, int size, String field, String direction) {
 //    Sort sort = direction.equalsIgnoreCase("asc")
 //            ? Sort.by(field).ascending()
