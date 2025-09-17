@@ -3,14 +3,12 @@ package com.employee.system.controller;
 import com.employee.system.dto.PageResponse;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseCookie;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 import com.employee.system.dto.Login;
@@ -22,7 +20,7 @@ import com.employee.system.service.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
-@Slf4j
+//@Slf4j
 @RestController
 @RequestMapping("/user")
 //@CrossOrigin(value = "http:/localhost:3000",allowCredentials = "true")
