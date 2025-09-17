@@ -2,6 +2,7 @@ package com.employee.system.controller;
 
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpHeaders;
@@ -20,6 +21,7 @@ import com.employee.system.service.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
+@Slf4j
 @RestController
 @RequestMapping("/user")
 //@CrossOrigin(value = "http:/localhost:3000",allowCredentials = "true")
@@ -71,21 +73,22 @@ public class HomeController {
                     .httpOnly(true)
                     .secure(false)        // true in production
                     .path("/")
-                    .maxAge(120)          // 2 minutes expiry
-                    .sameSite("Lax")
+                    .maxAge(120)// 2 minutes expiry
+                    .sameSite("Strict")
                     .build();
+
+
 //            HttpSession session = request.getSession(true);
 //            ResponseCookie sessionCookie = ResponseCookie.from("JSESSIONID", session.getId())
 //                    .httpOnly(true)
 //                    .secure(false)
 //                    .path("/")
 //                    .maxAge(120)
-//                    .sameSite("Strict")
+//                     .sameSite("Lax")
 //                    .build();
 
             response.addHeader(HttpHeaders.SET_COOKIE, authCookie.toString());
 //            response.addHeader(HttpHeaders.SET_COOKIE, sessionCookie.toString());
-//            response.addHeader(HttpHeaders.SET_COOKIE, cookie.toString());
             return ResponseEntity.ok(dto);
         } else {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
