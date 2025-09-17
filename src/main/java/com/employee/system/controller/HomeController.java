@@ -124,15 +124,15 @@ public class HomeController {
         }
     }
 
-    
+
     @GetMapping("/fetching/{id}")
     public ResponseEntity<Object> fetchingData(@PathVariable String id) {
-    	 EmployeeProfile fetchingProfile = userService.fetchingProfile(id);
-    	 if(fetchingProfile!=null) {
-    		 return ResponseEntity.ok(fetchingProfile);
-    	 }else {
-    		 return   ResponseEntity.status(HttpStatus.NO_CONTENT).body("Data not Found");
-    	 }
+        EmployeeProfile fetchingProfile = userService.fetchingProfile(id);
+        if (fetchingProfile != null) {
+            return ResponseEntity.ok(fetchingProfile);
+        } else {
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Data not Found");
+        }
     }
     
     @DeleteMapping("/delete/{id}")
@@ -154,15 +154,20 @@ public class HomeController {
     	 }
     }
 
-    @PutMapping("/update/{adminId}")
-    public ResponseEntity<Object> updateData(@PathVariable Long adminId, @RequestBody EmployeeProfile employeeProfile) {
-        EmployeeProfile updatedProfile = userService.updateProfile(adminId, employeeProfile);
+    @PutMapping("/update/{id}")
+    public ResponseEntity<Object> updateData(
+            @PathVariable String id, // employee id
+            @RequestBody EmployeeProfile employeeProfile,
+            @RequestParam Long adminId // admin performing the update
+    ) {
+        EmployeeProfile updatedProfile = userService.updateProfile(id, adminId, employeeProfile);
         if (updatedProfile != null) {
             return ResponseEntity.ok(updatedProfile);
         } else {
-            return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Data not Found");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Employee not Found");
         }
     }
+
 
     @PostMapping("/logout")
     public ResponseEntity<Void> logout(HttpServletRequest request, HttpServletResponse response) {

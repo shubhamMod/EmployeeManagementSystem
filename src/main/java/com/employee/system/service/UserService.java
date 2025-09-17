@@ -7,6 +7,9 @@ import com.employee.system.dto.Login;
 import com.employee.system.exception.ProfileNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -111,6 +114,8 @@ BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
 
 	        return profile.save(employeeProfile);
 	    }
+
+//        @Cacheable(value = "EmployeeProfile",key = "'Data'")
     public Page<EmployeeProfile> getAllEmployee(int page, int size, String field, String direction) {
         Sort sort = direction.equalsIgnoreCase("asc")
                 ? Sort.by(field).ascending()
@@ -128,55 +133,40 @@ BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
 //}
 
 
-    public EmployeeProfile fetchingProfile(String id) {
-		    return profile.findById(id)
-		                  .filter(EmployeeProfile::isEnabled)
-		                  .orElseThrow(() -> new ProfileNotFoundException("Profile not found or not enabled"));
-		}
-
+//    @Cacheable(value = "EmployeeProfile",key = "#id")
+public EmployeeProfile fetchingProfile(String id) {
+    return profile.findById(id)
+            .filter(EmployeeProfile::isEnabled)
+            .orElseThrow(() -> new ProfileNotFoundException("Profile not found or not enabled"));
+}
 		
 		// Update
-//        public EmployeeProfile updateProfile(Long adminId, EmployeeProfile employeeProfile) {
-//            SignUp admin = employeeRepo.findById(adminId)
-//                    .orElseThrow(() -> new RuntimeException("Admin not found"));
-//            LocalDateTime now = LocalDateTime.now();
-//            if (employeeProfile.getId() == null) {
-//                employeeProfile.setR_cre_time(now);
-//                employeeProfile.setR_created_by(admin.getFirstname() + " " + admin.getLastname());
-//                employeeProfile.setUser(employeeProfile.getUser());
-//            } else {
-//                EmployeeProfile existingProfile = profile.findById(employeeProfile.getId())
-//                        .orElseThrow(() -> new RuntimeException("Employee not found"));
-//                employeeProfile.setR_cre_time(existingProfile.getR_cre_time());
-//                employeeProfile.setR_created_by(existingProfile.getR_created_by());
-//            }
-//            employeeProfile.setR_mod_time(now);
-//            employeeProfile.setR_modified_by(admin.getFirstname() + " " + admin.getLastname());
-//
-//            return profile.save(employeeProfile);
-//        }
+        public EmployeeProfile updateProfile(String employeeId, Long adminId, EmployeeProfile employeeProfile) {
+            SignUp admin = employeeRepo.findById(adminId)
+                    .orElseThrow(() -> new RuntimeException("Admin not found"));
 
-    public EmployeeProfile updateProfile(Long adminId, EmployeeProfile employeeProfile) {
-        SignUp admin = employeeRepo.findById(adminId)
-                .orElseThrow(() -> new RuntimeException("Admin not found"));
-        EmployeeProfile existingProfile = profile.findById(employeeProfile.getId())
-                .orElseThrow(() -> new RuntimeException("Employee not found"));
-        existingProfile.setFirstname(employeeProfile.getFirstname());
-        existingProfile.setLastname(employeeProfile.getLastname());
-        existingProfile.setDepartment(employeeProfile.getDepartment());
-        existingProfile.setDesignation(employeeProfile.getDesignation());
-        existingProfile.setPhone(employeeProfile.getPhone());
-        existingProfile.setAddress(employeeProfile.getAddress());
-        existingProfile.setR_mod_time(LocalDateTime.now());
-        existingProfile.setR_modified_by(admin.getFirstname() + " " + admin.getLastname());
+            EmployeeProfile existingProfile = profile.findById(employeeId)
+                    .orElseThrow(() -> new RuntimeException("Employee not found"));
 
-        return profile.save(existingProfile);
-    }
+            existingProfile.setFirstname(employeeProfile.getFirstname());
+            existingProfile.setLastname(employeeProfile.getLastname());
+            existingProfile.setDepartment(employeeProfile.getDepartment());
+            existingProfile.setDesignation(employeeProfile.getDesignation());
+            existingProfile.setPhone(employeeProfile.getPhone());
+            existingProfile.setAddress(employeeProfile.getAddress());
+            existingProfile.setR_mod_time(LocalDateTime.now());
+            existingProfile.setR_modified_by(admin.getFirstname() + " " + admin.getLastname());
+
+            return profile.save(existingProfile);
+        }
+
+
 
 
 
     // Soft Delete
 
+//    @CacheEvict(value = "employee", key = "#id")
     public boolean deleteProfile(String id) {
         Optional<EmployeeProfile> byId = profile.findById(id);
 
@@ -191,6 +181,7 @@ BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
         }
         return false;
     }
+
     public boolean enableProfile(String id) {
         Optional<EmployeeProfile> byId = profile.findById(id);
         if (byId.isPresent()) {

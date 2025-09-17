@@ -1,0 +1,64 @@
+services:
+  postgresdb:
+    image: postgres:16   # ✅ fixed image name
+    container_name: postgresdb
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: InternalProject
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - s-networks
+
+  employeemanagement-app:
+    build: .
+    image: employeemanagement-app:v1.0   # ✅ image with version
+    container_name: employeemanagement-app
+    restart: always
+    depends_on:
+      - postgresdb
+    environment:
+      SPRING_APPLICATION_NAME: EmployeeManagementSystem
+      SERVER_PORT: 1000
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgresdb:5432/InternalProject  # ✅ fixed host
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: admin
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.PostgreSQLDialect
+      SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL: "true"
+      SPRING_JPA_PROPERTIES_HIBERNATE_SHOW_SQL: "true"
+      SPRING_JPA_PROPERTIES_JWT_SECRET: U29tZVN0YW5kYXJkQmFzZTY0S2V5U3RyaW5nMTIzNDU2
+      SPRING_JPA_PROPERTIES_JWT_EXPIRATION: 300000
+      LOGGING_FILE_NAME: app.log
+      LOGGING_FILE_PATH: logs
+      LOGGING_PATTERN_CONSOLE: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+      SPRING_OUTPUT_ANSI_ENABLED: always
+    ports:
+      - "1000:1000"
+    networks:
+      - s-networks
+
+  pgadmin:
+    image: dpage/pgadmin4   # ✅ fixed image name
+    container_name: pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgresdb
+    networks:
+      - s-networks
+
+volumes:
+  postgres_data:
+
+networks:
+  s-networks:
+    driver: bridge
