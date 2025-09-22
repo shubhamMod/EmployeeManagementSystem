@@ -5,10 +5,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseCookie;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
 import com.employee.system.dto.Login;
@@ -19,6 +16,7 @@ import com.employee.system.model.SignUp;
 import com.employee.system.service.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.web.multipart.MultipartFile;
 
 //@Slf4j
 @RestController
@@ -98,20 +96,26 @@ public class HomeController {
 
 
 
-    @PostMapping("/employee/add/{adminId}")
-    public ResponseEntity<Object> addEmployee(@PathVariable Long adminId, @RequestBody EmployeeProfile employeeProfile) {
+    @PostMapping(value = "/employee/add/{adminId}", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<Object> addEmployee(
+            @PathVariable Long adminId,
+            @RequestPart("employee") EmployeeProfile employeeProfile, // ✅ JSON part
+            @RequestPart(value = "image", required = false) MultipartFile image // ✅ File part
+    ) {
         try {
-            EmployeeProfile savedEmployee = userService.addEmployee(adminId, employeeProfile);
+            EmployeeProfile savedEmployee = userService.addEmployee(adminId, employeeProfile, image);
             return ResponseEntity.ok(savedEmployee);
         } catch (RuntimeException e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
     }
 
+
+
     @GetMapping("/all")
     public ResponseEntity<Object> allData(
             @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "20") int size,
             @RequestParam(defaultValue = "id") String field,
             @RequestParam(defaultValue = "asc") String direction
     ) {

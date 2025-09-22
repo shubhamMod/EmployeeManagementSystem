@@ -26,6 +26,9 @@ public class EmployeeProfile {
     private LocalDateTime r_cre_time;
     private LocalDateTime r_mod_time;
     private boolean enabled =true;
+    @Lob
+//    @Column(columnDefinition = "LONGBLOB")
+    private byte[] image;
     @ManyToOne
     @JoinColumn(name = "user_id")
     @JsonIgnore

@@ -1,5 +1,6 @@
 package com.employee.system.service;
 
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.Optional;
 
@@ -26,6 +27,7 @@ import com.employee.system.security.CustomUserDetails;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
+import org.springframework.web.multipart.MultipartFile;
 
 @Service
 public class UserService {
@@ -90,29 +92,42 @@ BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
 
 
 
-    public EmployeeProfile addEmployee(Long adminId, EmployeeProfile employeeProfile) {
-	        SignUp admin = employeeRepo.findById(adminId)
-	                .orElseThrow(() -> new RuntimeException("Admin not found"));
-	        LocalDateTime now = LocalDateTime.now();
-        String lastId = profile.findLastEmployeeId();
-        int nextNumber = 100; // start from EMP100
+    public EmployeeProfile addEmployee(Long adminId, EmployeeProfile employeeProfile, MultipartFile image) {
+        SignUp admin = employeeRepo.findById(adminId)
+                .orElseThrow(() -> new RuntimeException("Admin not found"));
 
+        LocalDateTime now = LocalDateTime.now();
+
+        // Generate Employee ID
+        String lastId = profile.findLastEmployeeId();
+        int nextNumber = 100;
         if (lastId != null && lastId.startsWith("EMP")) {
             nextNumber = Integer.parseInt(lastId.replace("EMP", "")) + 1;
         }
-
         String newId = "EMP" + nextNumber;
+
         employeeProfile.setId(newId);
-	        employeeProfile.setR_cre_time(now);
-	        employeeProfile.setR_mod_time(now);
-	        employeeProfile.setR_created_by(admin.getFirstname()+"  "+admin.getLastname());
-	        employeeProfile.setR_modified_by(admin.getFirstname()+"  "+admin.getLastname());
-	        employeeProfile.setUser(admin);
+        employeeProfile.setR_cre_time(now);
+        employeeProfile.setR_mod_time(now);
+        employeeProfile.setR_created_by(admin.getFirstname() + " " + admin.getLastname());
+        employeeProfile.setR_modified_by(admin.getFirstname() + " " + admin.getLastname());
+        employeeProfile.setUser(admin);
 
-	        return profile.save(employeeProfile);
-	    }
+        // ✅ Save image if provided
+        if (image != null && !image.isEmpty()) {
+            try {
+                employeeProfile.setImage(image.getBytes());
+            } catch (IOException e) {
+                throw new RuntimeException("Failed to store image", e);
+            }
+        }
 
-//        @Cacheable(value = "EmployeeProfile",key = "'Data'")
+        return profile.save(employeeProfile);
+    }
+
+
+
+    //        @Cacheable(value = "EmployeeProfile",key = "'Data'")
     public Page<EmployeeProfile> getAllEmployee(int page, int size, String field, String direction) {
         Sort sort = direction.equalsIgnoreCase("asc")
                 ? Sort.by(field).ascending()
