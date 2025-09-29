@@ -1,23 +1,23 @@
-2025-09-22T10:01:46.537+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.16 with PID 4400 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
-2025-09-22T10:01:46.550+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
-2025-09-22T10:01:46.682+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-22T10:01:46.683+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-22T10:01:47.817+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-22T10:01:47.910+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
-2025-09-22T10:01:48.850+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
-2025-09-22T10:01:48.869+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-22T10:01:48.869+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-09-22T10:01:48.954+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-22T10:01:48.955+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2270 ms
-2025-09-22T10:01:49.217+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-22T10:01:49.302+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-09-22T10:01:49.354+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-22T10:01:49.801+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-22T10:01:49.851+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-22T10:01:50.285+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e0a8aee
-2025-09-22T10:01:50.286+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-22T10:01:50.464+05:30  WARN 4400 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-22T10:01:50.503+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-03T16:34:58.523+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T16:34:58.532+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T16:34:58.585+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-03T16:34:58.585+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-03T16:34:59.359+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T16:34:59.429+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2025-10-03T16:35:00.051+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T16:35:00.065+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T16:35:00.065+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T16:35:00.127+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T16:35:00.127+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1541 ms
+2025-10-03T16:35:00.277+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T16:35:00.337+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-03T16:35:00.376+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T16:35:00.663+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T16:35:00.697+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-03T16:35:01.113+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57add34f
+2025-10-03T16:35:01.114+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-03T16:35:01.263+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T16:35:01.289+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.6
@@ -25,474 +25,527 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-22T10:01:51.666+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-22T10:01:52.086+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T10:01:52.582+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-09-22T10:01:52.582+05:30  WARN 4400 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-09-22T10:01:52.610+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-22T10:01:52.680+05:30  WARN 4400 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-22T10:01:53.391+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-22T10:01:53.445+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
-2025-09-22T10:01:53.457+05:30  INFO 4400 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 7.839 seconds (process running for 8.847)
-2025-09-22T10:02:03.632+05:30  INFO 4400 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-22T10:02:03.632+05:30  INFO 4400 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-22T10:02:03.633+05:30  INFO 4400 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-09-22T10:02:04.345+05:30  WARN 4400 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
-2025-09-22T10:03:47.731+05:30  INFO 4400 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-22T10:03:47.837+05:30  INFO 4400 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-22T10:03:47.843+05:30  INFO 4400 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T10:03:47.847+05:30  INFO 4400 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-22T10:03:47.867+05:30  INFO 4400 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-22T11:04:44.972+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.16 with PID 16468 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
-2025-09-22T11:04:44.977+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
-2025-09-22T11:04:45.055+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-22T11:04:45.055+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-22T11:04:46.054+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-22T11:04:46.151+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
-2025-09-22T11:04:47.075+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
-2025-09-22T11:04:47.098+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-22T11:04:47.098+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-09-22T11:04:47.180+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-22T11:04:47.180+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2124 ms
-2025-09-22T11:04:47.388+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-22T11:04:47.483+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-09-22T11:04:47.542+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-22T11:04:47.923+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-22T11:04:47.961+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-22T11:04:48.414+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34a49d99
-2025-09-22T11:04:48.416+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-22T11:04:48.473+05:30  WARN 16468 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-22T11:04:48.499+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+2025-10-03T16:35:02.295+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T16:35:02.788+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T16:35:03.213+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T16:35:03.213+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T16:35:03.239+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-03T16:35:03.356+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T16:35:04.168+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T16:35:04.255+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T16:35:04.269+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 6.222 seconds (process running for 7.391)
+2025-10-03T16:35:25.499+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T16:35:25.499+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T16:35:25.500+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-03T16:36:03.993+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T16:36:03.999+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T16:36:04.148+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T16:36:04.155+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T16:36:04.159+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-03T16:36:04.177+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-03T16:36:04.251+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T16:36:04.251+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T16:36:04.474+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T16:36:04.499+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2025-10-03T16:36:04.616+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T16:36:04.617+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T16:36:04.617+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T16:36:04.647+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T16:36:04.647+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 393 ms
+2025-10-03T16:36:04.695+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T16:36:04.698+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T16:36:04.710+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T16:36:04.711+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-03T16:36:04.825+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@13015ce1
+2025-10-03T16:36:04.825+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-03T16:36:04.836+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T16:36:04.838+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
 	Database driver: undefined/unknown
 	Database version: 17.6
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-22T11:04:49.681+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-22T11:04:50.105+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:04:50.678+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-09-22T11:04:50.679+05:30  WARN 16468 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-09-22T11:04:50.723+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-22T11:04:50.844+05:30  WARN 16468 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-22T11:04:51.710+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-22T11:04:51.763+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
-2025-09-22T11:04:51.775+05:30  INFO 16468 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 7.378 seconds (process running for 9.428)
-2025-09-22T11:05:20.870+05:30  INFO 16468 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-22T11:05:20.870+05:30  INFO 16468 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-22T11:05:20.870+05:30  INFO 16468 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-09-22T11:09:27.342+05:30  INFO 16468 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-22T11:09:27.422+05:30  INFO 16468 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-22T11:09:27.444+05:30  INFO 16468 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:09:27.453+05:30  INFO 16468 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-22T11:09:27.474+05:30  INFO 16468 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-22T11:12:20.054+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.16 with PID 21296 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
-2025-09-22T11:12:20.058+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
-2025-09-22T11:12:20.144+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-22T11:12:20.144+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-22T11:12:21.221+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-22T11:12:21.319+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
-2025-09-22T11:12:22.214+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
-2025-09-22T11:12:22.232+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-22T11:12:22.232+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-09-22T11:12:22.302+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-22T11:12:22.302+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2157 ms
-2025-09-22T11:12:22.511+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-22T11:12:22.602+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-09-22T11:12:22.663+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-22T11:12:23.057+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-22T11:12:23.106+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-22T11:12:23.408+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f154c97
-2025-09-22T11:12:23.411+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-22T11:12:23.464+05:30  WARN 21296 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-22T11:12:23.489+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+2025-10-03T16:36:04.918+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T16:36:05.132+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T16:36:05.271+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T16:36:05.272+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T16:36:05.342+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T16:36:05.704+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T16:36:05.725+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T16:36:05.733+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.504 seconds (process running for 68.855)
+2025-10-03T16:36:05.736+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T16:36:09.252+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T16:36:09.253+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T16:36:09.255+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-03T16:38:46.955+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T16:38:47.080+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T16:38:47.241+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T16:38:47.268+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T16:38:47.294+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-03T16:38:47.317+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-03T16:38:47.787+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T16:38:47.787+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T16:38:48.026+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T16:38:48.054+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
+2025-10-03T16:38:48.194+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T16:38:48.195+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T16:38:48.195+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T16:38:48.226+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T16:38:48.228+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 439 ms
+2025-10-03T16:38:48.276+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T16:38:48.279+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T16:38:48.289+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T16:38:48.291+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-10-03T16:38:48.425+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@671fe803
+2025-10-03T16:38:48.426+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-10-03T16:38:48.436+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T16:38:48.439+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
 	Database driver: undefined/unknown
 	Database version: 17.6
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-22T11:12:24.612+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-22T11:12:24.717+05:30  WARN 21296 --- [EmployeeManagementSystem] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
-    alter table if exists employee_profile 
-       add column image LONGBLOB" via JDBC [ERROR: type "longblob" does not exist
-  Position: 72]
-
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
-    alter table if exists employee_profile 
-       add column image LONGBLOB" via JDBC [ERROR: type "longblob" does not exist
-  Position: 72]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1725) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1474) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1760) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1643) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1698) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1643) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:230) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:184) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:179) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:164) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:96) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4464) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:773) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:438) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.11.jar:6.2.11]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
-	at com.employee.system.EmployeeManagementSystemApplication.main(EmployeeManagementSystemApplication.java:12) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
-Caused by: org.postgresql.util.PSQLException: ERROR: type "longblob" does not exist
-  Position: 72
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313) ~[postgresql-42.7.7.jar:42.7.7]
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	... 127 common frames omitted
-
-2025-09-22T11:12:24.941+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:12:25.689+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-09-22T11:12:25.690+05:30  WARN 21296 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-09-22T11:12:25.729+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-22T11:12:25.838+05:30  WARN 21296 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-22T11:12:26.962+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-22T11:12:27.047+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
-2025-09-22T11:12:27.061+05:30  INFO 21296 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 7.714 seconds (process running for 8.624)
-2025-09-22T11:12:39.603+05:30  INFO 21296 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-22T11:12:39.768+05:30  INFO 21296 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-22T11:12:39.779+05:30  INFO 21296 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:12:39.785+05:30  INFO 21296 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-22T11:12:39.840+05:30  INFO 21296 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-22T11:12:47.565+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.16 with PID 24984 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
-2025-09-22T11:12:47.569+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
-2025-09-22T11:12:47.649+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-22T11:12:47.649+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-22T11:12:48.568+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-22T11:12:48.660+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
-2025-09-22T11:12:49.660+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
-2025-09-22T11:12:49.682+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-22T11:12:49.682+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-09-22T11:12:49.757+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-22T11:12:49.758+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2107 ms
-2025-09-22T11:12:50.047+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-22T11:12:50.191+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-09-22T11:12:50.291+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-22T11:12:50.696+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-22T11:12:50.733+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-22T11:12:50.978+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69d8467
-2025-09-22T11:12:50.979+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-22T11:12:51.021+05:30  WARN 24984 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-22T11:12:51.049+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+2025-10-03T16:38:48.540+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T16:38:48.817+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T16:38:48.987+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T16:38:48.987+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T16:38:49.065+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T16:38:49.434+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T16:38:49.452+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T16:38:49.457+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.707 seconds (process running for 232.579)
+2025-10-03T16:38:49.459+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T16:38:52.903+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T16:38:52.904+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T16:38:52.906+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-03T16:57:42.130+05:30  WARN 24636 --- [EmployeeManagementSystem] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=53s363ms926µs900ns).
+2025-10-03T17:04:36.346+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:04:36.405+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:04:36.556+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:04:36.576+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:04:36.600+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-10-03T17:04:36.609+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-10-03T17:04:37.119+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:04:37.119+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:04:37.399+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:04:37.421+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:04:37.575+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:04:37.577+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:04:37.578+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:04:37.630+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:04:37.630+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 507 ms
+2025-10-03T17:04:37.677+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:04:37.679+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:04:37.691+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:04:37.693+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-10-03T17:04:37.799+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@64f3ed6b
+2025-10-03T17:04:37.800+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-10-03T17:04:37.819+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:04:37.822+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
 	Database driver: undefined/unknown
 	Database version: 17.6
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-22T11:12:52.151+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-22T11:12:52.353+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:12:52.840+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-09-22T11:12:52.841+05:30  WARN 24984 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-09-22T11:12:52.867+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-22T11:12:52.933+05:30  WARN 24984 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-22T11:12:53.591+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-22T11:12:53.637+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
-2025-09-22T11:12:53.648+05:30  INFO 24984 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 6.732 seconds (process running for 7.333)
-2025-09-22T11:12:59.087+05:30  INFO 24984 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-22T11:12:59.088+05:30  INFO 24984 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-22T11:12:59.090+05:30  INFO 24984 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-09-22T11:13:48.070+05:30  WARN 24984 --- [EmployeeManagementSystem] [http-nio-1000-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'employee' is not present.]
-2025-09-22T11:15:58.826+05:30  INFO 24984 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-22T11:15:58.908+05:30  INFO 24984 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-22T11:15:58.908+05:30  INFO 24984 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:15:58.908+05:30  INFO 24984 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-22T11:15:58.934+05:30  INFO 24984 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-22T11:19:10.184+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.16 with PID 19856 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
-2025-09-22T11:19:10.189+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
-2025-09-22T11:19:10.270+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-22T11:19:10.271+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-22T11:19:11.334+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-22T11:19:11.430+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
-2025-09-22T11:19:12.408+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
-2025-09-22T11:19:12.427+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-22T11:19:12.428+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-09-22T11:19:12.508+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-22T11:19:12.508+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2236 ms
-2025-09-22T11:19:12.724+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-22T11:19:12.805+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-09-22T11:19:12.876+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-22T11:19:13.296+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-22T11:19:13.381+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-22T11:19:13.846+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a2b3748
-2025-09-22T11:19:13.849+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-22T11:19:13.895+05:30  WARN 19856 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-22T11:19:13.915+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+2025-10-03T17:04:37.889+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:04:38.107+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:04:38.224+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:04:38.226+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:04:38.308+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:04:38.664+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:04:38.684+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:04:38.690+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.616 seconds (process running for 1781.836)
+2025-10-03T17:04:38.691+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:04:42.507+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:04:42.507+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:04:42.509+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-03T17:04:42.683+05:30  WARN 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-10-03T17:05:01.624+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:05:01.626+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:05:01.771+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:05:01.773+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:05:01.774+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-10-03T17:05:01.785+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-10-03T17:05:01.860+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:05:01.860+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:05:02.014+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:05:02.034+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:05:02.142+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:05:02.142+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:05:02.143+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:05:02.173+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:05:02.173+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
+2025-10-03T17:05:02.223+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:05:02.225+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:05:02.230+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:05:02.231+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-10-03T17:05:02.374+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@4b753293
+2025-10-03T17:05:02.374+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-10-03T17:05:02.386+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:05:02.388+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
 	Database driver: undefined/unknown
 	Database version: 17.6
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-22T11:19:15.246+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-22T11:19:15.501+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:19:16.048+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-09-22T11:19:16.049+05:30  WARN 19856 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-09-22T11:19:16.084+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-22T11:19:16.165+05:30  WARN 19856 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-22T11:19:16.927+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-22T11:19:16.994+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
-2025-09-22T11:19:17.011+05:30  INFO 19856 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 7.496 seconds (process running for 8.285)
-2025-09-22T11:19:19.754+05:30  INFO 19856 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-22T11:19:19.754+05:30  INFO 19856 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-22T11:19:19.755+05:30  INFO 19856 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-09-22T11:25:13.489+05:30  WARN 19856 --- [EmployeeManagementSystem] [http-nio-1000-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource user/all/15.]
-2025-09-22T11:25:21.862+05:30  WARN 19856 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource user/all/10.]
-2025-09-22T11:25:53.703+05:30  INFO 19856 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-22T11:25:53.806+05:30  INFO 19856 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-22T11:25:53.824+05:30  INFO 19856 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:25:53.862+05:30  INFO 19856 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-22T11:25:53.876+05:30  INFO 19856 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-22T11:26:02.978+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.16 with PID 13600 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
-2025-09-22T11:26:02.983+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
-2025-09-22T11:26:03.151+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-22T11:26:03.151+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-22T11:26:04.608+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-22T11:26:04.729+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 3 JPA repository interfaces.
-2025-09-22T11:26:05.761+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
-2025-09-22T11:26:05.780+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-22T11:26:05.781+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-09-22T11:26:05.853+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-22T11:26:05.853+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2701 ms
-2025-09-22T11:26:06.055+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-22T11:26:06.139+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-09-22T11:26:06.200+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-22T11:26:06.613+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-22T11:26:06.656+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-22T11:26:06.997+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c3c2182
-2025-09-22T11:26:06.999+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-22T11:26:07.064+05:30  WARN 13600 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-22T11:26:07.094+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+2025-10-03T17:05:02.466+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:05:02.688+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:05:02.833+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:05:02.833+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:05:02.892+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:05:03.265+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:05:03.283+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:05:03.287+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.45 seconds (process running for 1806.433)
+2025-10-03T17:05:03.288+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:05:04.796+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:05:04.796+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:05:04.798+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-03T17:05:04.805+05:30  WARN 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-10-03T17:06:07.938+05:30  WARN 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-10-03T17:06:29.642+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:06:29.646+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:06:29.775+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:06:29.779+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:06:29.781+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-10-03T17:06:29.790+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-10-03T17:06:29.892+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:06:29.892+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:06:30.062+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:06:30.083+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:06:30.218+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:06:30.219+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:06:30.219+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:06:30.252+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:06:30.252+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 359 ms
+2025-10-03T17:06:30.297+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:06:30.301+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:06:30.307+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:06:30.308+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-10-03T17:06:30.420+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@12fc5e2d
+2025-10-03T17:06:30.420+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-10-03T17:06:30.429+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:06:30.432+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
 	Database driver: undefined/unknown
 	Database version: 17.6
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-22T11:26:08.515+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-22T11:26:08.784+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:26:09.318+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-09-22T11:26:09.319+05:30  WARN 13600 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-09-22T11:26:09.347+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-22T11:26:09.424+05:30  WARN 13600 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-22T11:26:10.124+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-22T11:26:10.177+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
-2025-09-22T11:26:10.189+05:30  INFO 13600 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 7.973 seconds (process running for 8.907)
-2025-09-22T11:26:13.418+05:30  INFO 13600 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-22T11:26:13.419+05:30  INFO 13600 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-22T11:26:13.421+05:30  INFO 13600 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-09-22T11:26:14.261+05:30  WARN 13600 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [135] milliseconds.
-2025-09-22T11:26:14.338+05:30  WARN 13600 --- [EmployeeManagementSystem] [http-nio-1000-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource user/all/10.]
-2025-09-22T11:35:34.099+05:30 ERROR 13600 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
-
-io.jsonwebtoken.ExpiredJwtException: JWT expired 364055 milliseconds ago at 2025-09-22T05:59:30.000Z. Current time: 2025-09-22T06:05:34.055Z. Allowed clock skew: 0 milliseconds.
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:682) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:362) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseSignedClaims(DefaultJwtParser.java:821) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at com.employee.system.jwt.JwtUtil.extractClaims(JwtUtil.java:79) ~[classes/:na]
-	at com.employee.system.jwt.JwtUtil.extractUsername(JwtUtil.java:63) ~[classes/:na]
-	at com.employee.system.jwt.JwtFilter1.doFilterInternal(JwtFilter1.java:58) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.5.jar:6.5.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.5.jar:6.5.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.5.jar:6.5.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2025-09-22T11:36:44.282+05:30  INFO 13600 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-22T11:36:44.361+05:30  INFO 13600 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-22T11:36:44.395+05:30  INFO 13600 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-22T11:36:44.424+05:30  INFO 13600 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-22T11:36:44.445+05:30  INFO 13600 --- [EmployeeManagementSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-03T17:06:30.484+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:06:30.667+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:06:30.782+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:06:30.782+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:06:30.833+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:06:31.149+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:06:31.166+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:06:31.171+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.3 seconds (process running for 1894.317)
+2025-10-03T17:06:31.173+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:06:41.216+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:06:41.216+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:06:41.218+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-03T17:07:06.262+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:07:06.264+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:07:06.460+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:07:06.463+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:07:06.464+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-10-03T17:07:06.475+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-10-03T17:07:06.541+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:07:06.542+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:07:06.763+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:07:06.787+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:07:06.959+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:07:06.960+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:07:06.960+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:07:06.994+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:07:06.994+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 451 ms
+2025-10-03T17:07:07.048+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:07:07.050+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:07:07.066+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:07:07.066+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-10-03T17:07:07.224+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@68d6c2c9
+2025-10-03T17:07:07.224+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-10-03T17:07:07.236+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:07:07.237+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-03T17:07:07.300+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:07:07.642+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:07:07.812+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:07:07.813+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:07:07.896+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:07:08.340+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:07:08.360+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:07:08.366+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.843 seconds (process running for 1931.512)
+2025-10-03T17:07:08.368+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:07:11.380+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:07:11.380+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:07:11.382+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-03T17:07:11.388+05:30  WARN 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-10-03T17:07:39.483+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-03T17:07:39.488+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:07:39.643+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:07:39.647+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:07:39.648+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-10-03T17:07:39.659+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-10-03T17:07:39.724+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:07:39.725+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:07:39.870+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:07:39.887+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:07:39.986+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:07:39.986+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:07:39.986+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:07:40.014+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:07:40.014+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2025-10-03T17:07:40.058+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:07:40.060+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:07:40.066+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:07:40.067+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-10-03T17:07:40.172+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@3d550fd3
+2025-10-03T17:07:40.172+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-10-03T17:07:40.183+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:07:40.185+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-03T17:07:40.244+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:07:40.456+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:07:40.563+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:07:40.563+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:07:40.625+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:07:40.946+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:07:40.962+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:07:40.967+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.26 seconds (process running for 1964.113)
+2025-10-03T17:07:40.968+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:07:43.030+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:07:43.030+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:07:43.031+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-03T17:07:43.040+05:30  WARN 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-10-03T17:07:59.812+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:07:59.814+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:07:59.944+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:07:59.946+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:07:59.946+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2025-10-03T17:07:59.957+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2025-10-03T17:08:00.032+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:08:00.032+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:08:00.183+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:08:00.199+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:08:00.295+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:08:00.296+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:08:00.296+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:08:00.323+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:08:00.324+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 290 ms
+2025-10-03T17:08:00.363+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:08:00.367+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:08:00.375+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:08:00.376+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2025-10-03T17:08:00.476+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@34c4cb67
+2025-10-03T17:08:00.476+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2025-10-03T17:08:00.485+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:08:00.486+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-03T17:08:00.538+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:08:00.730+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:08:00.849+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:08:00.849+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:08:00.912+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:08:01.265+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:08:01.281+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:08:01.286+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.281 seconds (process running for 1984.432)
+2025-10-03T17:08:01.287+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:08:04.179+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:08:04.180+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:08:04.181+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-03T17:08:58.998+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:08:59.000+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-35] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:08:59.134+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:08:59.137+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:08:59.137+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2025-10-03T17:08:59.152+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2025-10-03T17:08:59.232+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:08:59.234+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:08:59.420+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:08:59.440+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:08:59.559+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:08:59.560+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:08:59.560+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:08:59.586+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:08:59.587+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 352 ms
+2025-10-03T17:08:59.633+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:08:59.637+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:08:59.647+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:08:59.648+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2025-10-03T17:08:59.766+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@7ddf2976
+2025-10-03T17:08:59.767+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2025-10-03T17:08:59.775+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:08:59.776+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-03T17:08:59.826+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:09:00.042+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:09:00.164+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:09:00.165+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:09:00.243+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:09:00.596+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:09:00.613+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:09:00.619+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.409 seconds (process running for 2043.764)
+2025-10-03T17:09:00.620+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:09:03.379+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:09:03.379+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:09:03.380+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-03T17:10:15.801+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-03T17:10:15.802+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-39] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:10:15.951+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:10:15.954+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:10:15.954+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2025-10-03T17:10:15.968+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2025-10-03T17:10:16.032+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:10:16.032+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:10:16.184+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:10:16.201+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:10:16.308+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:10:16.309+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:10:16.309+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:10:16.334+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:10:16.334+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 300 ms
+2025-10-03T17:10:16.376+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:10:16.378+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:10:16.387+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:10:16.387+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2025-10-03T17:10:16.497+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@aec38b3
+2025-10-03T17:10:16.497+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2025-10-03T17:10:16.506+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:10:16.507+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-03T17:10:16.558+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:10:16.766+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:10:16.867+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:10:16.867+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:10:16.927+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:10:17.244+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:10:17.262+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:10:17.267+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.254 seconds (process running for 2120.413)
+2025-10-03T17:10:17.268+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:10:20.405+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:10:20.405+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:10:20.406+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-03T17:14:58.178+05:30  WARN 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [147] milliseconds.
+2025-10-03T17:16:10.797+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:16:10.804+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-43] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:16:10.938+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:16:10.944+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:16:10.947+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2025-10-03T17:16:10.958+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2025-10-03T17:16:11.081+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:16:11.081+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:16:11.233+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:16:11.251+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:16:11.377+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:16:11.379+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:16:11.379+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:16:11.431+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:16:11.431+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 348 ms
+2025-10-03T17:16:11.625+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:16:11.628+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:16:11.666+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:16:11.667+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2025-10-03T17:16:11.902+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@1640aa57
+2025-10-03T17:16:11.903+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2025-10-03T17:16:11.918+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:16:11.921+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-03T17:16:12.009+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:16:12.346+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:16:12.545+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:16:12.546+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:16:12.597+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:16:12.919+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:16:12.938+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:16:12.942+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.878 seconds (process running for 2476.088)
+2025-10-03T17:16:12.943+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:16:15.241+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:16:15.242+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:16:15.243+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-03T17:16:15.280+05:30  WARN 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-10-03T17:16:28.706+05:30  INFO 24636 --- [EmployeeManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T17:16:28.708+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-47] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-03T17:16:28.871+05:30  INFO 24636 --- [EmployeeManagementSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-03T17:16:28.873+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-47] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:16:28.873+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2025-10-03T17:16:28.885+05:30  INFO 24636 --- [EmployeeManagementSystem] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2025-10-03T17:16:28.957+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 17.0.12 with PID 24636 (D:\Internal Project\EmployeeManagementSystem\target\classes started by MSS-125 in D:\Internal Project\EmployeeManagementSystem)
+2025-10-03T17:16:28.958+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T17:16:29.095+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T17:16:29.111+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2025-10-03T17:16:29.200+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1000 (http)
+2025-10-03T17:16:29.201+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T17:16:29.201+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-03T17:16:29.238+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T17:16:29.238+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2025-10-03T17:16:29.278+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T17:16:29.280+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T17:16:29.286+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T17:16:29.286+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2025-10-03T17:16:29.494+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@40dcb60a
+2025-10-03T17:16:29.494+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2025-10-03T17:16:29.503+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-03T17:16:29.505+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-03T17:16:29.555+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T17:16:29.764+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T17:16:29.868+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-03T17:16:29.868+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-03T17:16:29.929+05:30  WARN 24636 --- [EmployeeManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T17:16:30.248+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T17:16:30.263+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1000 (http) with context path '/'
+2025-10-03T17:16:30.267+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .e.s.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 1.325 seconds (process running for 2493.413)
+2025-10-03T17:16:30.267+05:30  INFO 24636 --- [EmployeeManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-03T17:16:32.002+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T17:16:32.002+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T17:16:32.003+05:30  INFO 24636 --- [EmployeeManagementSystem] [http-nio-1000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
